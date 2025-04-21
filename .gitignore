@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+venv/
+*.sqlite3
+weather.db
+
+# Node
+node_modules/
+.next/
+dist/
+.env.local
+
+# OS
+.DS_Store
+*.log

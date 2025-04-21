@@ -1,0 +1,33 @@
+{
+  "name": "toolpad-weather",
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11",
+    "@emotion/styled": "^11",
+    "@mui/icons-material": "^7.0.2",
+    "@mui/material": "^6",
+    "@mui/material-nextjs": "^6",
+    "@mui/x-charts": "^8.0.0",
+    "@mui/x-data-grid": "^7",
+    "@mui/x-date-pickers": "^7",
+    "@toolpad/core": "0.14.0",
+    "next": "^15",
+    "react": "^19",
+    "react-dom": "^19",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "^15",
+    "typescript": "^5"
+  }
+}
