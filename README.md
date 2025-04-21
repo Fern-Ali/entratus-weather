@@ -1,6 +1,6 @@
-# 🌤️ Entratus Weather Microservice (WaaS — Weather as a Service)
+# 🌤️ Weather Microservice (WaaS — Weather as a Service)
 
-This project is a full-stack async microservice that fetches, transforms, and visualizes 7-day weather forecasts for any location via latitude and longitude. It was built for the Entratus coding challenge to demonstrate full-cycle engineering across API design, async data fetching, data storage, and UI integration.
+This project is a full-stack async microservice that fetches, transforms, and visualizes 7-day weather forecasts for any location via latitude and longitude. It was built for a coding challenge to demonstrate full-cycle engineering across API design, async data fetching, data storage, and UI integration.
 
 ---
 
