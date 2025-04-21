@@ -10,7 +10,7 @@ run:
 	backend/venv/bin/uvicorn main:app --reload --app-dir backend
 
 test:
-	cd backend && source venv/bin/activate && pytest
+	backend/venv/bin/pytest backend/test_main.py
 
 # === React frontend ===
 
