@@ -4,10 +4,10 @@ venv:
 	python3 -m venv backend/venv
 
 install:
-	cd backend && source venv/bin/activate && pip install -r requirements.txt
+	cd backend && . venv/bin/activate && pip install -r requirements.txt
 
 run:
-	cd backend && source venv/bin/activate && uvicorn main:app --reload
+	backend/venv/bin/uvicorn main:app --reload --app-dir backend
 
 test:
 	cd backend && source venv/bin/activate && pytest

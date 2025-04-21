@@ -71,7 +71,9 @@ To simplify testing:
 - `/fetch_data` is a friendlier alias for `/forecast`, using default lat/lon values
 - `/results` is a shortcut to `/logs`, showing recent weather entries
 
+
 ### 🧑‍🎨 Frontend — React UI (Optional)
+> 💡 Tip: Run `make run` and `make frontend-run` in separate terminals so both services stay active.
 
 ```bash
 make frontend-install
@@ -112,7 +114,7 @@ curl "http://localhost:8000/results"
 
 ---
 
-## 🧊 Bonus: WaaS (Weather as a Service)
+## ✨ Bonus: WaaS (Weather as a Service)
 
 This project includes a full UI built in React + MUI, showing:
 - A live weather feed of national parks
@@ -121,6 +123,25 @@ This project includes a full UI built in React + MUI, showing:
 
 ---
 
-## 📜 License
+## 🛠 Troubleshooting
 
-MIT — go build cool stuff!
+> Having issues with `make`? You can run commands manually:
+
+**Backend Setup**
+
+```bash
+cd backend
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+uvicorn main:app --reload
+```
+
+**Frontend Setup**
+
+```bash
+cd frontend
+npm install --legacy-peer-deps
+npm run dev
+```
+
